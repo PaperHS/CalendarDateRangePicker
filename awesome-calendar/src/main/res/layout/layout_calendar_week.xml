@@ -4,21 +4,48 @@
     android:layout_height="wrap_content"
     android:baselineAligned="false"
     android:gravity="center_horizontal"
-    android:minHeight="@dimen/weekRowMinHeight"
+    android:paddingBottom="5dp"
     android:orientation="horizontal">
 
-    <include layout="@layout/layout_calendar_day" />
+    <include layout="@layout/layout_calendar_day"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
 
-    <include layout="@layout/layout_calendar_day" />
+    <include layout="@layout/layout_calendar_day"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
 
-    <include layout="@layout/layout_calendar_day" />
+    <include layout="@layout/layout_calendar_day"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
 
-    <include layout="@layout/layout_calendar_day" />
+    <include layout="@layout/layout_calendar_day"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
 
-    <include layout="@layout/layout_calendar_day" />
+    <include layout="@layout/layout_calendar_day"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
 
-    <include layout="@layout/layout_calendar_day" />
+    <include layout="@layout/layout_calendar_day"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
 
-    <include layout="@layout/layout_calendar_day" />
+    <include layout="@layout/layout_calendar_day"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
 
 </LinearLayout>

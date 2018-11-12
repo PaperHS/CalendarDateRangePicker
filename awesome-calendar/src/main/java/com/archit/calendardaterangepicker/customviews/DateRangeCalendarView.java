@@ -8,6 +8,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -169,7 +170,7 @@ public class DateRangeCalendarView extends LinearLayout {
 
         tvYearTitle.setText(yearTitle);
         tvYearTitle.setTextColor(calendarStyleAttr.getTitleColor());
-
+        tvYearTitle.setTextSize(TypedValue.COMPLEX_UNIT_SP,calendarStyleAttr.getTextSizeTitle());
     }
 
     /**

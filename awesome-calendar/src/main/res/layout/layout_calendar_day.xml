@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/ContainerDayOfWeek">
+    style="@style/ContainerDayOfWeek"
+        >
 
-    <View style="@style/StripRange" />
+    <View style="@style/StripRange"
+        />
 
     <com.archit.calendardaterangepicker.customviews.CustomTextView
         android:id="@+id/dayOfMonthText"

@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">AwesomeCalendar</string>
 
-    <string name="cdrp_mon">Mon</string>
-    <string name="cdrp_tue">Tue</string>
-    <string name="cdrp_wed">Wed</string>
-    <string name="cdrp_thu">Thu</string>
-    <string name="cdrp_fri">Fri</string>
-    <string name="cdrp_sat">Sat</string>
-    <string name="cdrp_sun">Sun</string>
+    <string name="cdrp_mon">M</string>
+    <string name="cdrp_tue">T</string>
+    <string name="cdrp_wed">W</string>
+    <string name="cdrp_thu">T</string>
+    <string name="cdrp_fri">F</string>
+    <string name="cdrp_sat">S</string>
+    <string name="cdrp_sun">S</string>
 
     <string-array name="week_sun_sat">
         <item>@string/cdrp_sun</item>
